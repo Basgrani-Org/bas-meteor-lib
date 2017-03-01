@@ -1,6 +1,6 @@
 [submodule "utils"]
 	path = utils
-	url = git://github.com/Basgrani-Org/bas-meteor-utils.git
+	url = https://github.com/Basgrani-Org/bas-meteor-utils.git
 [submodule "facebook-login"]
 	path = facebook-login
 	url = git://github.com/Basgrani-Org/bas-meteor-facebook-login.git
