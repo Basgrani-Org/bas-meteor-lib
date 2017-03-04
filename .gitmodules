@@ -3,10 +3,10 @@
 	url = https://github.com/Basgrani-Org/bas-meteor-utils.git
 [submodule "facebook-login"]
 	path = facebook-login
-	url = git://github.com/Basgrani-Org/bas-meteor-facebook-login.git
+	url = https://github.com/Basgrani-Org/bas-meteor-facebook-login.git
 [submodule "ip-geo"]
 	path = ip-geo
-	url = git://github.com/Basgrani-Org/bas-meteor-ip-geo.git
+	url = https://github.com/Basgrani-Org/bas-meteor-ip-geo.git
 [submodule "jwplayer"]
 	path = jwplayer
-	url = git://github.com/Basgrani-Org/bas-meteor-jwplayer.git
+	url = https://github.com/Basgrani-Org/bas-meteor-jwplayer.git

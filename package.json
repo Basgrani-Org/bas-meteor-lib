@@ -1,0 +1,49 @@
+{
+  "name": "bas-meteor-lib",
+  "version": "0.1.2",
+  "description": "Set of libraries to give superpowers to Meteor!!",
+  "homepage": "https://github.com/Basgrani-Org/bas-meteor-lib#readme",
+  "author": "Jorge Gonzalez",
+  "repository": {
+    "type": "git",
+    "url": "git+https://Basgrani@github.com/Basgrani-Org/bas-meteor-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Basgrani-Org/bas-meteor-lib/issues"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "grunt-newer": "^1.2.0",
+    "grunt-stamp": "^0.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-notify": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-contrib-compress": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "autoprefixer": "^6.0.3",
+    "postcss-flexbugs-fixes": "^2.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-sass": "^1.0.0",
+    "grunt-babel": "^6.0.0",
+    "babel-preset-es2015": "^6.14.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "js",
+    "framework",
+    "meteor"
+  ]
+}

@@ -9,25 +9,25 @@
 - [Native Facebook SDK login](https://github.com/Basgrani-Org/bas-meteor-facebook-login)
 
 ```
-npm install bas-meteor-facebook-login
+meteor npm install bas-meteor-facebook-login
 ```
 
 - [Geocode IP addresses](https://github.com/Basgrani-Org/bas-meteor-ip-geo)
 
 ```
-npm install bas-meteor-ip-geo
+meteor npm install bas-meteor-ip-geo
 ```
 
 - [JWPlayer](https://github.com/Basgrani-Org/bas-meteor-jwplayer)
 
 ```
-npm install bas-meteor-jwplayer
+meteor npm install bas-meteor-jwplayer
 ```
 
 - [Utilities](https://github.com/Basgrani-Org/bas-meteor-utils)
 
 ```
-npm install bas-meteor-utils
+meteor npm install bas-meteor-utils
 ```
 
 ## Backers
