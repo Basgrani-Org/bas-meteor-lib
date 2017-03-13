@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 .sass-cache
 bas-meteor-publish.sh
+npm-rebuild-all.sh
