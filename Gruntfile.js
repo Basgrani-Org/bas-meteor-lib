@@ -29,7 +29,7 @@ module.exports = function ( grunt ) {
             ip_geo_dist_dir: 'ip-geo/dist',
             ip_geo_es6_dir: 'ip-geo/es6',
             jwplayer_dist_dir: 'jwplayer/dist',
-            jwplayer_es6_dir: 'jwplayer/es6'
+            jwplayer_es6_dir: 'jwplayer/es6',
         },
 
         // ------------------------------------------------------------------------
@@ -40,49 +40,49 @@ module.exports = function ( grunt ) {
         babel: {
             options: {
                 "presets": [
-                    ["es2015", { "modules": "commonjs" }]
-                ]
+                    ["es2015", { "modules": "commonjs" }],
+                ],
             },
             utils: {
                 options: {
-                    sourceMap: false
+                    sourceMap: false,
                 },
                 expand: true,
                 cwd: '<%= meta.utils_es6_dir %>/',
                 src: '**/*.js',
-                dest: '<%= meta.utils_dist_dir %>/'
+                dest: '<%= meta.utils_dist_dir %>/',
 
             },
             facebook_login: {
                 options: {
-                    sourceMap: false
+                    sourceMap: false,
                 },
                 expand: true,
                 cwd: '<%= meta.facebook_login_es6_dir %>/',
                 src: '**/*.js',
-                dest: '<%= meta.facebook_login_dist_dir %>/'
+                dest: '<%= meta.facebook_login_dist_dir %>/',
 
             },
             ip_geo: {
                 options: {
-                    sourceMap: false
+                    sourceMap: false,
                 },
                 expand: true,
                 cwd: '<%= meta.ip_geo_es6_dir %>/',
                 src: '**/*.js',
-                dest: '<%= meta.ip_geo_dist_dir %>/'
+                dest: '<%= meta.ip_geo_dist_dir %>/',
 
             },
             jwplayer: {
                 options: {
-                    sourceMap: false
+                    sourceMap: false,
                 },
                 expand: true,
                 cwd: '<%= meta.jwplayer_es6_dir %>/',
                 src: '**/*.js',
-                dest: '<%= meta.jwplayer_dist_dir %>/'
+                dest: '<%= meta.jwplayer_dist_dir %>/',
 
-            }
+            },
         },
 
         // ------------------------------------------------------------------------
@@ -92,17 +92,17 @@ module.exports = function ( grunt ) {
         // Clean
         clean: {
             utils: {
-                src: ["<%= meta.utils_dist_dir %>/*"]
+                src: ["<%= meta.utils_dist_dir %>/*"],
             },
             facebook_login: {
-                src: ["<%= meta.facebook_login_dist_dir %>/*"]
+                src: ["<%= meta.facebook_login_dist_dir %>/*"],
             },
             ip_geo: {
-                src: ["<%= meta.ip_geo_dist_dir %>/*"]
+                src: ["<%= meta.ip_geo_dist_dir %>/*"],
             },
             jwplayer: {
-                src: ["<%= meta.jwplayer_dist_dir %>/*"]
-            }
+                src: ["<%= meta.jwplayer_dist_dir %>/*"],
+            },
         },
 
         // System Notifications
@@ -113,10 +113,10 @@ module.exports = function ( grunt ) {
                     message: 'JS Compiled!',
                     title: "<%= meta.name %>",
                     success: true,
-                    duration: 1
-                }
-            }
-        }
+                    duration: 1,
+                },
+            },
+        },
 
     });
 
